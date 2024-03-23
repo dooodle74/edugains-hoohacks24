@@ -1,15 +1,10 @@
 {
   "name": "nextjs-toolbox",
   "version": "1.0.0",
-  "author": "Netlify Inc",
   "contributors": [
     "David Wang",
     "Victor Pan"
   ],
-  "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
-  "bugs": {
-    "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
-  },
   "engines": {
     "node": "14.x"
   },
