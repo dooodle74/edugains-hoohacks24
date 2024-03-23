@@ -11,10 +11,9 @@
   "bugs": {
     "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
   },
- "scripts": {
-    "dev": "next dev",
+  "scripts": {
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start"
   },
   "dependencies": {
     "cypress": "^13.4.0",
