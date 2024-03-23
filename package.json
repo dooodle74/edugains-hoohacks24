@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "author": "Netlify Inc",
   "contributors": [
-    "Tara Manicsic",
-    "Prince Wilson",
-    "Charlie Gerard",
-    "Ben Hong"
+    "David Wang",
+    "Victor Pan"
+    
   ],
   "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
   "bugs": {
     "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
   },
-  "scripts": {
+ "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "cypress": "^13.4.0",
