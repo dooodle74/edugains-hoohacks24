@@ -5,15 +5,18 @@
   "contributors": [
     "David Wang",
     "Victor Pan"
-    
   ],
   "homepage": "https://github.com/netlify-templates/nextjs-toolbox",
   "bugs": {
     "url": "https://github.com/netlify-templates/nextjs-toolbox/issues"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "cypress": "^13.4.0",
